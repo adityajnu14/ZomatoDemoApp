@@ -1,0 +1,644 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4812FC221E60007E0084346B /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4812FC211E60007D0084346B /* DataManager.m */; };
+		4812FC291E6033DE0084346B /* ZomatoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4812FC281E6033DE0084346B /* ZomatoCollectionViewCell.m */; };
+		4814B3FB1E66B0BE001F3BD5 /* HomePageTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4814B3FA1E66B0BE001F3BD5 /* HomePageTableViewController.m */; };
+		482D52FE1E63F29E00DAD94F /* Restaurant.m in Sources */ = {isa = PBXBuildFile; fileRef = 482D52FD1E63F29E00DAD94F /* Restaurant.m */; };
+		482D53021E6400EC00DAD94F /* ImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 482D53011E6400EC00DAD94F /* ImageManager.m */; };
+		482D53051E644A1C00DAD94F /* BookRestaurentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 482D53041E644A1C00DAD94F /* BookRestaurentViewController.m */; };
+		4843ECDA1E6561B2004C360A /* bookATable.png in Resources */ = {isa = PBXBuildFile; fileRef = 4843ECD71E6561B2004C360A /* bookATable.png */; };
+		4843ECDB1E6561B2004C360A /* nearBy.png in Resources */ = {isa = PBXBuildFile; fileRef = 4843ECD81E6561B2004C360A /* nearBy.png */; };
+		4843ECDC1E6561B2004C360A /* cart.png in Resources */ = {isa = PBXBuildFile; fileRef = 4843ECD91E6561B2004C360A /* cart.png */; };
+		4857768D1E5EF6B700C2065D /* zomotoAppDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4857768C1E5EF6B700C2065D /* zomotoAppDemoTests.m */; };
+		485776981E5EF6B700C2065D /* zomotoAppDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 485776971E5EF6B700C2065D /* zomotoAppDemoUITests.m */; };
+		48AFCDAD1E5EFF0F0092E86F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 48AFCD9E1E5EFF0E0092E86F /* AppDelegate.m */; };
+		48AFCDAE1E5EFF0F0092E86F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 48AFCD9F1E5EFF0E0092E86F /* main.m */; };
+		48AFCDB01E5EFF0F0092E86F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48AFCDA71E5EFF0F0092E86F /* Assets.xcassets */; };
+		48AFCDB21E5EFF0F0092E86F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48AFCDAB1E5EFF0F0092E86F /* LaunchScreen.storyboard */; };
+		48AFCDB31E5EFF0F0092E86F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48AFCDAC1E5EFF0F0092E86F /* Main.storyboard */; };
+		48AFCDB71E5F082B0092E86F /* homePic.png in Resources */ = {isa = PBXBuildFile; fileRef = 48AFCDB61E5F082B0092E86F /* homePic.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		485776891E5EF6B700C2065D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 485776671E5EF6B700C2065D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4857766E1E5EF6B700C2065D;
+			remoteInfo = zomotoAppDemo;
+		};
+		485776941E5EF6B700C2065D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 485776671E5EF6B700C2065D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4857766E1E5EF6B700C2065D;
+			remoteInfo = zomotoAppDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4812FC201E60007D0084346B /* DataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
+		4812FC211E60007D0084346B /* DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
+		4812FC271E6033DE0084346B /* ZomatoCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZomatoCollectionViewCell.h; sourceTree = "<group>"; };
+		4812FC281E6033DE0084346B /* ZomatoCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZomatoCollectionViewCell.m; sourceTree = "<group>"; };
+		4814B3F91E66B0BE001F3BD5 /* HomePageTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageTableViewController.h; sourceTree = "<group>"; };
+		4814B3FA1E66B0BE001F3BD5 /* HomePageTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageTableViewController.m; sourceTree = "<group>"; };
+		482D52FC1E63F29E00DAD94F /* Restaurant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Restaurant.h; sourceTree = "<group>"; };
+		482D52FD1E63F29E00DAD94F /* Restaurant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Restaurant.m; sourceTree = "<group>"; };
+		482D53001E6400EC00DAD94F /* ImageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageManager.h; sourceTree = "<group>"; };
+		482D53011E6400EC00DAD94F /* ImageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageManager.m; sourceTree = "<group>"; };
+		482D53031E644A1C00DAD94F /* BookRestaurentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookRestaurentViewController.h; sourceTree = "<group>"; };
+		482D53041E644A1C00DAD94F /* BookRestaurentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookRestaurentViewController.m; sourceTree = "<group>"; };
+		4843ECD71E6561B2004C360A /* bookATable.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bookATable.png; sourceTree = "<group>"; };
+		4843ECD81E6561B2004C360A /* nearBy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nearBy.png; sourceTree = "<group>"; };
+		4843ECD91E6561B2004C360A /* cart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cart.png; sourceTree = "<group>"; };
+		4857766F1E5EF6B700C2065D /* zomotoAppDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zomotoAppDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		485776881E5EF6B700C2065D /* zomotoAppDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zomotoAppDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4857768C1E5EF6B700C2065D /* zomotoAppDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zomotoAppDemoTests.m; sourceTree = "<group>"; };
+		4857768E1E5EF6B700C2065D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		485776931E5EF6B700C2065D /* zomotoAppDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zomotoAppDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		485776971E5EF6B700C2065D /* zomotoAppDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zomotoAppDemoUITests.m; sourceTree = "<group>"; };
+		485776991E5EF6B700C2065D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		486A1BA21E6063EF00E9AA69 /* Define.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Define.h; sourceTree = "<group>"; };
+		48AFCD9D1E5EFF0E0092E86F /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		48AFCD9E1E5EFF0E0092E86F /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		48AFCD9F1E5EFF0E0092E86F /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		48AFCDA71E5EFF0F0092E86F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		48AFCDA91E5EFF0F0092E86F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48AFCDAB1E5EFF0F0092E86F /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		48AFCDAC1E5EFF0F0092E86F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		48AFCDB61E5F082B0092E86F /* homePic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = homePic.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4857766C1E5EF6B700C2065D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		485776851E5EF6B700C2065D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		485776901E5EF6B700C2065D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4812FC261E6033AE0084346B /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				4812FC271E6033DE0084346B /* ZomatoCollectionViewCell.h */,
+				4812FC281E6033DE0084346B /* ZomatoCollectionViewCell.m */,
+				482D52FC1E63F29E00DAD94F /* Restaurant.h */,
+				482D52FD1E63F29E00DAD94F /* Restaurant.m */,
+			);
+			name = Modal;
+			sourceTree = "<group>";
+		};
+		482D52FF1E6400BB00DAD94F /* ImageManager */ = {
+			isa = PBXGroup;
+			children = (
+				482D53001E6400EC00DAD94F /* ImageManager.h */,
+				482D53011E6400EC00DAD94F /* ImageManager.m */,
+			);
+			name = ImageManager;
+			sourceTree = "<group>";
+		};
+		485776661E5EF6B700C2065D = {
+			isa = PBXGroup;
+			children = (
+				48AFCD9B1E5EFF0E0092E86F /* Class */,
+				48AFCDA51E5EFF0F0092E86F /* Resources */,
+				48AFCD9A1E5EFF0E0092E86F /* Base.lproj */,
+				4857768B1E5EF6B700C2065D /* zomotoAppDemoTests */,
+				485776961E5EF6B700C2065D /* zomotoAppDemoUITests */,
+				485776701E5EF6B700C2065D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		485776701E5EF6B700C2065D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4857766F1E5EF6B700C2065D /* zomotoAppDemo.app */,
+				485776881E5EF6B700C2065D /* zomotoAppDemoTests.xctest */,
+				485776931E5EF6B700C2065D /* zomotoAppDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4857768B1E5EF6B700C2065D /* zomotoAppDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				4857768C1E5EF6B700C2065D /* zomotoAppDemoTests.m */,
+				4857768E1E5EF6B700C2065D /* Info.plist */,
+			);
+			path = zomotoAppDemoTests;
+			sourceTree = "<group>";
+		};
+		485776961E5EF6B700C2065D /* zomotoAppDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				485776971E5EF6B700C2065D /* zomotoAppDemoUITests.m */,
+				485776991E5EF6B700C2065D /* Info.plist */,
+			);
+			path = zomotoAppDemoUITests;
+			sourceTree = "<group>";
+		};
+		48AFCD9A1E5EFF0E0092E86F /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				48AFCDAA1E5EFF0F0092E86F /* User Interface */,
+			);
+			name = Base.lproj;
+			path = zomotoAppDemo/Base.lproj;
+			sourceTree = "<group>";
+		};
+		48AFCD9B1E5EFF0E0092E86F /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				4812FC261E6033AE0084346B /* Modal */,
+				48AFCD9C1E5EFF0E0092E86F /* App */,
+				482D52FF1E6400BB00DAD94F /* ImageManager */,
+				48AFCDA01E5EFF0E0092E86F /* DataManager */,
+				48AFCDA11E5EFF0E0092E86F /* Utilities */,
+				48AFCDA21E5EFF0E0092E86F /* ViewControllers */,
+			);
+			name = Class;
+			path = zomotoAppDemo/Class;
+			sourceTree = "<group>";
+		};
+		48AFCD9C1E5EFF0E0092E86F /* App */ = {
+			isa = PBXGroup;
+			children = (
+				48AFCD9D1E5EFF0E0092E86F /* AppDelegate.h */,
+				48AFCD9E1E5EFF0E0092E86F /* AppDelegate.m */,
+				48AFCD9F1E5EFF0E0092E86F /* main.m */,
+				486A1BA21E6063EF00E9AA69 /* Define.h */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		48AFCDA01E5EFF0E0092E86F /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				4812FC201E60007D0084346B /* DataManager.h */,
+				4812FC211E60007D0084346B /* DataManager.m */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		48AFCDA11E5EFF0E0092E86F /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		48AFCDA21E5EFF0E0092E86F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				482D53031E644A1C00DAD94F /* BookRestaurentViewController.h */,
+				482D53041E644A1C00DAD94F /* BookRestaurentViewController.m */,
+				4814B3F91E66B0BE001F3BD5 /* HomePageTableViewController.h */,
+				4814B3FA1E66B0BE001F3BD5 /* HomePageTableViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		48AFCDA51E5EFF0F0092E86F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				48AFCDA61E5EFF0F0092E86F /* Image */,
+				48AFCDA81E5EFF0F0092E86F /* Others */,
+			);
+			name = Resources;
+			path = zomotoAppDemo/Resources;
+			sourceTree = "<group>";
+		};
+		48AFCDA61E5EFF0F0092E86F /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				4843ECD71E6561B2004C360A /* bookATable.png */,
+				4843ECD81E6561B2004C360A /* nearBy.png */,
+				4843ECD91E6561B2004C360A /* cart.png */,
+				48AFCDB61E5F082B0092E86F /* homePic.png */,
+				48AFCDA71E5EFF0F0092E86F /* Assets.xcassets */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		48AFCDA81E5EFF0F0092E86F /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				48AFCDA91E5EFF0F0092E86F /* Info.plist */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		48AFCDAA1E5EFF0F0092E86F /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				48AFCDAB1E5EFF0F0092E86F /* LaunchScreen.storyboard */,
+				48AFCDAC1E5EFF0F0092E86F /* Main.storyboard */,
+			);
+			name = "User Interface";
+			path = "../Resources/User Interface";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4857766E1E5EF6B700C2065D /* zomotoAppDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4857769C1E5EF6B800C2065D /* Build configuration list for PBXNativeTarget "zomotoAppDemo" */;
+			buildPhases = (
+				4857766B1E5EF6B700C2065D /* Sources */,
+				4857766C1E5EF6B700C2065D /* Frameworks */,
+				4857766D1E5EF6B700C2065D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = zomotoAppDemo;
+			productName = zomotoAppDemo;
+			productReference = 4857766F1E5EF6B700C2065D /* zomotoAppDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		485776871E5EF6B700C2065D /* zomotoAppDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4857769F1E5EF6B800C2065D /* Build configuration list for PBXNativeTarget "zomotoAppDemoTests" */;
+			buildPhases = (
+				485776841E5EF6B700C2065D /* Sources */,
+				485776851E5EF6B700C2065D /* Frameworks */,
+				485776861E5EF6B700C2065D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4857768A1E5EF6B700C2065D /* PBXTargetDependency */,
+			);
+			name = zomotoAppDemoTests;
+			productName = zomotoAppDemoTests;
+			productReference = 485776881E5EF6B700C2065D /* zomotoAppDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		485776921E5EF6B700C2065D /* zomotoAppDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 485776A21E5EF6B800C2065D /* Build configuration list for PBXNativeTarget "zomotoAppDemoUITests" */;
+			buildPhases = (
+				4857768F1E5EF6B700C2065D /* Sources */,
+				485776901E5EF6B700C2065D /* Frameworks */,
+				485776911E5EF6B700C2065D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				485776951E5EF6B700C2065D /* PBXTargetDependency */,
+			);
+			name = zomotoAppDemoUITests;
+			productName = zomotoAppDemoUITests;
+			productReference = 485776931E5EF6B700C2065D /* zomotoAppDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		485776671E5EF6B700C2065D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = mindfire;
+				TargetAttributes = {
+					4857766E1E5EF6B700C2065D = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					485776871E5EF6B700C2065D = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4857766E1E5EF6B700C2065D;
+					};
+					485776921E5EF6B700C2065D = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4857766E1E5EF6B700C2065D;
+					};
+				};
+			};
+			buildConfigurationList = 4857766A1E5EF6B700C2065D /* Build configuration list for PBXProject "zomotoAppDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 485776661E5EF6B700C2065D;
+			productRefGroup = 485776701E5EF6B700C2065D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4857766E1E5EF6B700C2065D /* zomotoAppDemo */,
+				485776871E5EF6B700C2065D /* zomotoAppDemoTests */,
+				485776921E5EF6B700C2065D /* zomotoAppDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4857766D1E5EF6B700C2065D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48AFCDB21E5EFF0F0092E86F /* LaunchScreen.storyboard in Resources */,
+				4843ECDB1E6561B2004C360A /* nearBy.png in Resources */,
+				48AFCDB71E5F082B0092E86F /* homePic.png in Resources */,
+				4843ECDC1E6561B2004C360A /* cart.png in Resources */,
+				4843ECDA1E6561B2004C360A /* bookATable.png in Resources */,
+				48AFCDB01E5EFF0F0092E86F /* Assets.xcassets in Resources */,
+				48AFCDB31E5EFF0F0092E86F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		485776861E5EF6B700C2065D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		485776911E5EF6B700C2065D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4857766B1E5EF6B700C2065D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				482D53051E644A1C00DAD94F /* BookRestaurentViewController.m in Sources */,
+				482D53021E6400EC00DAD94F /* ImageManager.m in Sources */,
+				4812FC291E6033DE0084346B /* ZomatoCollectionViewCell.m in Sources */,
+				4814B3FB1E66B0BE001F3BD5 /* HomePageTableViewController.m in Sources */,
+				4812FC221E60007E0084346B /* DataManager.m in Sources */,
+				48AFCDAE1E5EFF0F0092E86F /* main.m in Sources */,
+				482D52FE1E63F29E00DAD94F /* Restaurant.m in Sources */,
+				48AFCDAD1E5EFF0F0092E86F /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		485776841E5EF6B700C2065D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4857768D1E5EF6B700C2065D /* zomotoAppDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4857768F1E5EF6B700C2065D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				485776981E5EF6B700C2065D /* zomotoAppDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4857768A1E5EF6B700C2065D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4857766E1E5EF6B700C2065D /* zomotoAppDemo */;
+			targetProxy = 485776891E5EF6B700C2065D /* PBXContainerItemProxy */;
+		};
+		485776951E5EF6B700C2065D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4857766E1E5EF6B700C2065D /* zomotoAppDemo */;
+			targetProxy = 485776941E5EF6B700C2065D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4857769A1E5EF6B800C2065D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4857769B1E5EF6B800C2065D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4857769D1E5EF6B800C2065D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/zomotoAppDemo/Resources/Others/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mindfire.zomotoAppDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4857769E1E5EF6B800C2065D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/zomotoAppDemo/Resources/Others/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mindfire.zomotoAppDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		485776A01E5EF6B800C2065D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = zomotoAppDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mindfire.zomotoAppDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/zomotoAppDemo.app/zomotoAppDemo";
+			};
+			name = Debug;
+		};
+		485776A11E5EF6B800C2065D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = zomotoAppDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mindfire.zomotoAppDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/zomotoAppDemo.app/zomotoAppDemo";
+			};
+			name = Release;
+		};
+		485776A31E5EF6B800C2065D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = zomotoAppDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mindfire.zomotoAppDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = zomotoAppDemo;
+			};
+			name = Debug;
+		};
+		485776A41E5EF6B800C2065D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = zomotoAppDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mindfire.zomotoAppDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = zomotoAppDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4857766A1E5EF6B700C2065D /* Build configuration list for PBXProject "zomotoAppDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4857769A1E5EF6B800C2065D /* Debug */,
+				4857769B1E5EF6B800C2065D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4857769C1E5EF6B800C2065D /* Build configuration list for PBXNativeTarget "zomotoAppDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4857769D1E5EF6B800C2065D /* Debug */,
+				4857769E1E5EF6B800C2065D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4857769F1E5EF6B800C2065D /* Build configuration list for PBXNativeTarget "zomotoAppDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				485776A01E5EF6B800C2065D /* Debug */,
+				485776A11E5EF6B800C2065D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		485776A21E5EF6B800C2065D /* Build configuration list for PBXNativeTarget "zomotoAppDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				485776A31E5EF6B800C2065D /* Debug */,
+				485776A41E5EF6B800C2065D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 485776671E5EF6B700C2065D /* Project object */;
+}
